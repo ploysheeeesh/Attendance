@@ -10,9 +10,6 @@ video_capture = cv2.VideoCapture(0)
 musk_image = face_recognition.load_image_file("photos/Elon Musk.jpg")
 musk_encoding = face_recognition.face_encodings(musk_image)[0]
 
-ploy_image = face_recognition.load_image_file("photos/Va Kunthea.jpg")
-ploy_encoding = face_recognition.face_encodings(ploy_image)[0]
-
 mark_image = face_recognition.load_image_file("photos/Mark Zukaburng.jpg")
 mark_encoding = face_recognition.face_encodings(mark_image)[0]
 
